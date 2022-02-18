@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:widget_personalizado/widgets/custom_buttom_widget.dart';
 
     class OnePage extends StatelessWidget {
       const OnePage({Key? key}) : super(key: key);
@@ -7,9 +8,11 @@ import "package:flutter/material.dart";
       Widget build(BuildContext context) {
         return Scaffold(
           body: Center(
-            child: ElevatedButton(
+            child: CustomButtomWidget(
+              disable: false,
               onPressed: (){},
-              child: Text("Botão"),
+              title: "Custom BTN",
+              titleSize: 15,
             ),
           ),
         );
