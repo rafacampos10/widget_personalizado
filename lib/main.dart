@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_personalizado/one_page.dart';
+import 'package:widget_personalizado/views/one_page.dart';
 
 main(){
   runApp(MyApp());
